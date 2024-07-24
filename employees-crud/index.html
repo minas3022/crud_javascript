@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Funcionários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="water-lula">
+        <img src="./fondo.jpg" alt="Marca d'água" class="water">
+    </div>
+    <h1>Cadastro de Funcionários</h1>
+    <div>
+        <input type="text" id="name" placeholder="Nome">
+        <input type="email" id="email" placeholder="Email">
+        <input type="text" id="position" placeholder="Posição">
+        <button id="addEmployee">Adicionar Funcionário</button>
+    </div>
+    <div>
+        <input type="text" id="search" placeholder="Pesquisar por Nome">
+        <button id="searchButton">Pesquisar</button>
+    </div>
+    <table id="employeesTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Posição</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Funcionários serão listados aqui -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

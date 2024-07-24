@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(168, 170, 169);
+}
+
+input{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px; /* Cantos arredondados */
+    font-size: 16px;
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */ 
+}
+
+
+
+
+button {
+    background-color: blue;  /* Cor de fundo azul */
+    color: white;            /* Cor da fonte branca */
+    border: none;            /* Remove a borda padrão */
+    border-radius: 15px;     /* Cantos arredondados */
+    padding: 10px 20px;      /* Espaçamento interno */
+    font-size: 16px;         /* Tamanho da fonte */
+    cursor: pointer;         /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+button:hover {
+    background-color: darkblue; /* Cor de fundo azul escuro ao passar o mouse */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid black;
+        text-align: left;
+    }
+    
+    thead {
+        background-color: #333;
+        color: white;
+    }
+    
+    tbody tr:nth-child(odd) {
+        background-color: #f2f2f2; /* Cor para as linhas ímpares */
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: #8f8585; /* Cor para as linhas pares */
+    }
+
+    .water-lula {
+        position: sticky;
+    }
+    
+    .water {
+        position: fixed;
+        opacity: 0.4; /* Ajuste a opacidade conforme necessário */
+        top: 50%; /* Posição vertical */
+        left: 50%; /* Posição horizontal */
+        transform: translate(-50%, -50%) rotate(-30deg); /* Centralizar e rotacionar */
+        pointer-events: none; /* Evita interações com a marca d'água */
+    }
